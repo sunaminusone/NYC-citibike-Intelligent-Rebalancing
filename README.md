@@ -7,6 +7,7 @@
 ## 📑 Table of Contents
 
 - [🎯 Project Overview](#-project-overview)
+- [📊 Data Source](#-data-source)
 - [🚀 Key Features](#-key-features)
 - [📦 Project Phases & To-Do List](#-project-phases--to-do-list)
   - [Phase 1: Data Preparation & Cleaning](#phase-1-data-preparation--cleaning-)
@@ -28,7 +29,34 @@
 
 This project implements an intelligent bike rebalancing system for NYC's Citibike program, combining time series forecasting, queuing theory, and vehicle routing optimization to solve the critical problem of bike availability across the network.
 
-## 🚀 Key Features
+### 📊 Data Source
+The project utilizes the official Citibike system data available at [https://citibikenyc.com/system-data](https://citibikenyc.com/system-data). This comprehensive dataset includes:
+- Trip history data with start/end stations, timestamps, and duration
+- Station information including location coordinates and capacity
+- Monthly ridership reports and system metrics
+- Real-time station status updates
+
+The system processes millions of trip records to identify usage patterns and optimize bike distribution across 1,000+ stations throughout NYC.
+
+## 📊 Data Source
+
+This project leverages the official Citibike System Data available at [https://citibikenyc.com/system-data](https://citibikenyc.com/system-data).
+
+### Available Datasets
+- **Trip History Data**: Monthly CSV files containing:
+  - Ride ID, rideable type
+  - Start/end station names and IDs
+  - Start/end coordinates (latitude, longitude)  
+  - Start/end timestamps
+  - Member vs. casual rider status
+- **Station Information**: Real-time and historical station data
+- **System Metrics**: Performance and usage statistics
+
+### Data Characteristics
+- **Volume**: ~2-3 million trips per month
+- **Coverage**: 1,000+ stations across NYC
+- **Update Frequency**: Monthly releases
+- **Format**: CSV files with standardized schema
 
 | Feature | Description | Technology |
 |---------|-------------|------------|
@@ -196,7 +224,7 @@ NYCcitibike-Intelligent-Rebalancing/
 
 ## 👥 Contributors
 
-- [Your Name](https://github.com/yourusername) - Project Lead
+- Meixuan Li((https://github.com/sunaminusone)) - Project Lead
 
 ## 📝 License
 
