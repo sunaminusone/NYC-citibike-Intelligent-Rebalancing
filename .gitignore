@@ -1,0 +1,46 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore Databricks metadata (if exported)
+.dbfs/
+.checkpoints/
+.delta_log/
+spark-warehouse/
+
+# Ignore large datasets if accidentally placed
+data/*.csv
+data/*.parquet
+data/*.json
+
+# Ignore model outputs if any
+models/
+outputs/
+
+# Ignore Streamlit configuration
+.streamlit/
+
+# Ignore environment files (optional, if you generate conda envs)
+environment.yml
+Pipfile
+Pipfile.lock
