@@ -38,10 +38,6 @@ The project utilizes the official Citibike system data available at [https://cit
 
 The system processes millions of trip records to identify usage patterns and optimize bike distribution across 1,000+ stations throughout NYC.
 
-## 📊 Data Source
-
-This project leverages the official Citibike System Data available at [https://citibikenyc.com/system-data](https://citibikenyc.com/system-data).
-
 ### Available Datasets
 - **Trip History Data**: Monthly CSV files containing:
   - Ride ID, rideable type
